@@ -1,0 +1,32 @@
+.album-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-padding {
+  margin: 10px;
+}
+
+.album-art-grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 5;
+}
+
+.search-contianer {
+  margin-top: 10px;
+}
+
+.no-album-available {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-pills {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
